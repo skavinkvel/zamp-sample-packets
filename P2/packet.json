@@ -1,0 +1,21 @@
+{
+  "packet": "P2",
+  "purpose": "GSTIN embeds a different PAN than the PAN card (same holder type)",
+  "expected": "rejected (3.6)",
+  "typed_fields": {
+    "legal_name": "SAMPLE Meridian Exports Pvt Ltd",
+    "country": "India",
+    "country_name": "",
+    "account_no": "80400567891234",
+    "ifsc": "HDFC0000240",
+    "pan": "AABCM2210P",
+    "gstin": "27AABCM2290R1ZY",
+    "contact_email": "accounts@sample-vendor.example",
+    "contact_phone": "+91 98000 00000"
+  },
+  "files": [
+    "pan_card.pdf",
+    "gst_cert.pdf",
+    "bank_doc.pdf"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "packet": "P8",
+  "purpose": "Corrected resubmission of P2: same PAN and bank account as the REJECTED P2, but a GSTIN that now matches the PAN. Run AFTER P2 has been rejected.",
+  "expected": "pending, flagged (5.E matches_rejected: pan + bank_account); nothing else fails",
+  "typed_fields": {
+    "legal_name": "SAMPLE Meridian Exports Pvt Ltd",
+    "country": "India",
+    "country_name": "",
+    "account_no": "80400567891234",
+    "ifsc": "HDFC0000240",
+    "pan": "AABCM2210P",
+    "gstin": "27AABCM2210P1ZI",
+    "contact_email": "accounts@sample-vendor.example",
+    "contact_phone": "+91 98000 00000"
+  },
+  "files": [
+    "pan_card.pdf",
+    "gst_cert.pdf",
+    "bank_doc.pdf"
+  ]
+}

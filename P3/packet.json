@@ -1,0 +1,21 @@
+{
+  "packet": "P3",
+  "purpose": "Bank account holder name differs from legal name",
+  "expected": "pending, human review (4.x name match)",
+  "typed_fields": {
+    "legal_name": "SAMPLE Cobalt Engineering Pvt Ltd",
+    "country": "India",
+    "country_name": "",
+    "account_no": "90500678912345",
+    "ifsc": "ICIC0000104",
+    "pan": "AABCC5512D",
+    "gstin": "33AABCC5512D1ZD",
+    "contact_email": "accounts@sample-vendor.example",
+    "contact_phone": "+91 98000 00000"
+  },
+  "files": [
+    "pan_card.pdf",
+    "gst_cert.pdf",
+    "bank_doc.pdf"
+  ]
+}

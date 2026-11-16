@@ -1,0 +1,21 @@
+{
+  "packet": "P1b",
+  "purpose": "Spare happy path (own PAN and account)",
+  "expected": "approved",
+  "typed_fields": {
+    "legal_name": "SAMPLE Lotus Foods LLP",
+    "country": "India",
+    "country_name": "",
+    "account_no": "60200345678912",
+    "ifsc": "ICIC0000104",
+    "pan": "AAAFL3377M",
+    "gstin": "29AAAFL3377M1ZU",
+    "contact_email": "accounts@sample-vendor.example",
+    "contact_phone": "+91 98000 00000"
+  },
+  "files": [
+    "pan_card.pdf",
+    "gst_cert.pdf",
+    "bank_doc.pdf"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "packet": "P1",
+  "purpose": "India happy path; seeds vendor for P5 and duplicate",
+  "expected": "approved",
+  "typed_fields": {
+    "legal_name": "SAMPLE Sunrise Traders Pvt Ltd",
+    "country": "India",
+    "country_name": "",
+    "account_no": "50100234567891",
+    "ifsc": "HDFC0000240",
+    "pan": "AABCS4821K",
+    "gstin": "27AABCS4821K1Z9",
+    "contact_email": "accounts@sample-vendor.example",
+    "contact_phone": "+91 98000 00000"
+  },
+  "files": [
+    "pan_card.pdf",
+    "gst_cert.pdf",
+    "bank_doc.pdf"
+  ]
+}

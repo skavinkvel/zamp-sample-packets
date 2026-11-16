@@ -1,0 +1,21 @@
+{
+  "packet": "P4",
+  "purpose": "PAN card is an unreadable phone photo (must stay unreadable after browser resize)",
+  "expected": "pending, re-upload (2.pan_card doc_unreadable)",
+  "typed_fields": {
+    "legal_name": "SAMPLE Orchid Plastics Pvt Ltd",
+    "country": "India",
+    "country_name": "",
+    "account_no": "11600789123456",
+    "ifsc": "SBIN0000691",
+    "pan": "AABCO9034H",
+    "gstin": "29AABCO9034H1Z9",
+    "contact_email": "accounts@sample-vendor.example",
+    "contact_phone": "+91 98000 00000"
+  },
+  "files": [
+    "pan_card_photo.jpg",
+    "gst_cert.pdf",
+    "bank_doc.pdf"
+  ]
+}

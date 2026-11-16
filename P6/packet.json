@@ -1,0 +1,17 @@
+{
+  "packet": "P6",
+  "purpose": "Non-India vendor, no files",
+  "expected": "pending, unsupported country (3.0)",
+  "typed_fields": {
+    "legal_name": "SAMPLE Gulf Brightline Trading LLC",
+    "country": "Other",
+    "country_name": "United Arab Emirates",
+    "account_no": "AE070331234567890123456",
+    "ifsc": "",
+    "pan": "",
+    "gstin": "",
+    "contact_email": "accounts@sample-vendor.example",
+    "contact_phone": "+91 98000 00000"
+  },
+  "files": []
+}
